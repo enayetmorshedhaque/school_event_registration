@@ -18,24 +18,126 @@
 </head>
 
 <body>
-    <header class="video-header">
-        <video autoplay muted loop id="myVideo">
-            <source src="./assets/videos/bg-video.mp4" type="video/mp4">
-        </video>
-    </header>
-    <div class="content">
-        <h1>একাউন্টিং ফেস্টিভ্যাল ২০২৩</h1>
-        <button class="btn btn-outline-warning">রেজিস্ট্রেশন করুন</button>
-    </div>
-    <div class="container" id="main-section">
-        <!-- registration section starts here -->
-        <section class="py-3">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.jpg" alt="Logo" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">হোম</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">আসন্ন ইভেন্ট</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">পূর্বের ইভেন্টসমূহ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">নতুন মেম্বার</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Image  -->
+    <div class="vh-100 d-flex justify-content-center align-items-center">
+        <!-- <img src="./assets/images/bg-2.jpg" class="img-fluid" alt=""> -->
+    </div>
+
+
+    <div class="container">
+        <!-- upcoming event section starts here -->
+        <h4 class="text-center">আসন্ন অনুষ্ঠানের বিস্তারিত</h4>
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mb-2">
+                        <div class="text-center">
+                            <span class="fs-5">অনুষ্ঠানের নাম</span>
+                            <hr>
+                            <p class="fw-bold">ডিআইইউআন ফ্রম কিশোরগঞ্জ ইফতার - ২০২৩</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <div class="text-center">
+                            <span class="fs-5">অনুষ্ঠানের দিন ও তারিখ</span>
+                            <hr>
+                            <p class="fw-bold">১২ই এপ্রিল, ২০২৩ <br>বুধবার</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <div class="text-center">
+                            <span class="fs-5">অনুষ্ঠানের ভেন্যু</span>
+                            <hr>
+                            <p class="fw-bold">বনমায়া, ড্যাফোডিল আন্তর্জাতিক বিশ্ববিদ্যালয়</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <div class="text-center">
+                            <span class="fs-5">রেজিস্ট্রেশন ফি</span>
+                            <hr>
+                            <p class="fw-bold">৳ ১৫০ মাত্র</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!-- registration section ends here -->
+        <!-- upcoming event section ends here -->
+
+        <!-- previous event section starts here -->
+        <h4 class="text-center">পূর্ববর্তী অনুষ্ঠানসমূহ</h4>
+        <section class="py-5">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./assets/images/bg-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">গেট টু গেদার ২০২২</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./assets/images/bg-2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">গেট টু গেদার ২০২৩</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./assets/images/bg-3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ইফতার ২০২৩</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- previous event section ends here -->
 
         <!-- faq section starts here -->
-        <section class="py-3">
+        <section class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mb-2">
@@ -132,7 +234,7 @@
         <!-- faq section ends here -->
 
         <!-- contact section starts here -->
-        <section class="py-3">
+        <section class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 mb-2">
@@ -152,8 +254,8 @@
                         <div class="card shadow-sm border-0 contact-card">
                             <div class="py-2">
                                 <div class="card-body pb-0 text-center">
-                                    <i class="fa-solid fa-location-arrow fs-3"></i>
-                                    <p class="fw-bold mb-0 fs-5">ঠিকানা</p>
+                                    <i class="fa-solid fa-mobile-screen fs-3"></i>
+                                    <p class="fw-bold mb-0 fs-5">মোবাইল নম্বর</p>
                                 </div>
                                 <div class="card-footer text-center border-0 bg-transparent text-wrap">
                                     <p>55/1/D, Middle Paikpara</p>
@@ -165,8 +267,8 @@
                         <div class="card shadow-sm border-0 contact-card">
                             <div class="py-2">
                                 <div class="card-body pb-0 text-center">
-                                    <i class="fa-solid fa-location-arrow fs-3"></i>
-                                    <p class="fw-bold mb-0 fs-5">ঠিকানা</p>
+                                    <i class="fa-solid fa-at fs-3"></i>
+                                    <p class="fw-bold mb-0 fs-5">ইমেইল</p>
                                 </div>
                                 <div class="card-footer text-center border-0 bg-transparent text-wrap">
                                     <p>55/1/D, Middle Paikpara</p>
@@ -178,8 +280,8 @@
                         <div class="card shadow-sm border-0 contact-card">
                             <div class="py-2">
                                 <div class="card-body pb-0 text-center">
-                                    <i class="fa-solid fa-location-arrow fs-3"></i>
-                                    <p class="fw-bold mb-0 fs-5">ঠিকানা</p>
+                                    <i class="fa-solid fa-clock fs-3"></i>
+                                    <p class="fw-bold mb-0 fs-5">সময়</p>
                                 </div>
                                 <div class="card-footer text-center border-0 bg-transparent text-wrap">
                                     <p>55/1/D, Middle Paikpara</p>
@@ -207,6 +309,17 @@
     <!-- footer section ends here -->
     <!-- Bootstrap JS CDN Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                nav.classList.add('bg-white', 'shadow-lg');
+            } else {
+                nav.classList.remove('bg-white', 'shadow-lg');
+            }
+        });
+    </script>
 </body>
 
 </html>
