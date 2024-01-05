@@ -1,23 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
 
 * {
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
 }
-.navbar .navbar-expand-lg{
+.navbar .navbar-expand-lg {
   background: rgba(0, 0, 0, 0.25);
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+  color: #555 !important;
 }
 
 /* .contact-card{
   background-color: #F8F4EA;
 } */
 
-
-.contact-card:hover{
-  background-color: #4801FF;
+.contact-card:hover {
+  background-color: #4801ff;
   color: white;
 }
 
-#myVideo {
+#background-video {
   width: 100%;
   height: 100vh;
   object-fit: cover;
@@ -40,6 +48,6 @@
   padding: 20px;
 }
 
-#main-section{
+#main-section {
   position: relative;
 }
